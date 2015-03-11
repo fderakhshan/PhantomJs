@@ -1,0 +1,5 @@
+var page = require('webpage').create();
+page.open('file:///C:/Users/Fariba/AppData/Local/Temp/GitRepository5178541446034736112/index.htm', function() {
+  page.render('github1.png');
+  phantom.exit();
+});
